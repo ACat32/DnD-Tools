@@ -1,0 +1,7 @@
+import random
+min=1
+max=20
+
+def RollDice(name):
+    roll = random.randint(min, max)
+    print(str(name) + ' rolled a ' + str(roll))
